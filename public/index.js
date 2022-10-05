@@ -114,13 +114,13 @@ function initBotConversation() {
                             // must use for authenticated conversation.
                             jsonWebToken: jsonWebToken,
 
-                            // Use the following activity to proactively invoke a bot scenario
-                            triggeredScenario: {
-                                trigger: "top_level_menu",
-                                args: {
-                                    location: location
-                                }
-                            }
+                            // // Use the following activity to proactively invoke a bot scenario
+                            // triggeredScenario: {
+                            //     trigger: "top_level_menu",
+                            //     args: {
+                            //         location: location
+                            //     }
+                            // }
                         }
                     }
                 }
