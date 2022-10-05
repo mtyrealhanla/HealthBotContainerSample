@@ -91,7 +91,7 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        // botAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
+        botAvatarImage: 'https://yt3.ggpht.com/uK35MS-Jd_VCAZrQj8KIoP1WWTFCgfVr7b9DsCFZ47c4g9Rdu_9kfeBzaCIRsKUzN9Uom92-HA=s900-c-k-c0x00ffffff-no-rj',
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
