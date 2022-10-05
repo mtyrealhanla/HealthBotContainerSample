@@ -91,7 +91,7 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        botAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
+        // botAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
@@ -115,16 +115,12 @@ function initBotConversation() {
                             jsonWebToken: jsonWebToken,
 
                             // Use the following activity to proactively invoke a bot scenario
-                            /*
                             triggeredScenario: {
-                                trigger: "{scenario_id}",
+                                trigger: "top_level_menu",
                                 args: {
-                                    location: location,
-                                    myVar1: "{custom_arg_1}",
-                                    myVar2: "{custom_arg_2}"
+                                    location: location
                                 }
                             }
-                            */
                         }
                     }
                 }
