@@ -91,7 +91,7 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        botAvatarImage: 'https://yt3.ggpht.com/uK35MS-Jd_VCAZrQj8KIoP1WWTFCgfVr7b9DsCFZ47c4g9Rdu_9kfeBzaCIRsKUzN9Uom92-HA=s900-c-k-c0x00ffffff-no-rj',
+        botAvatarImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ioSf82sJ0VTqAsrz6h0V-tw5asOq4L5DbLIy2f8wSTnRdl0K760o_Wtkc3efx77898A&usqp=CAU',
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
